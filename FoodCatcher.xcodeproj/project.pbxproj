@@ -12,6 +12,7 @@
 		F2BD9A5B22199177009AF57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BD9A5922199177009AF57F /* Main.storyboard */; };
 		F2BD9A5D22199179009AF57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BD9A5C22199179009AF57F /* Assets.xcassets */; };
 		F2BD9A6022199179009AF57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BD9A5E22199179009AF57F /* LaunchScreen.storyboard */; };
+		F2BD9A682219937B009AF57F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F2BD9A672219937A009AF57F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F2BD9A5C22199179009AF57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BD9A5F22199179009AF57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2BD9A6122199179009AF57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BD9A672219937A009AF57F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F2BD9A5C22199179009AF57F /* Assets.xcassets */,
 				F2BD9A5E22199179009AF57F /* LaunchScreen.storyboard */,
 				F2BD9A6122199179009AF57F /* Info.plist */,
+				F2BD9A672219937A009AF57F /* Inceptionv3.mlmodel */,
 			);
 			path = FoodCatcher;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BD9A5822199177009AF57F /* ViewController.swift in Sources */,
+				F2BD9A682219937B009AF57F /* Inceptionv3.mlmodel in Sources */,
 				F2BD9A5622199177009AF57F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WUH89742HZ;
 				INFOPLIST_FILE = FoodCatcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WUH89742HZ;
 				INFOPLIST_FILE = FoodCatcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
